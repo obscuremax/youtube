@@ -1,0 +1,81 @@
+
+.cardContainer{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	width: 320px;
+	margin: 0 auto;
+	margin-top: 10px;
+	border-radius: 10px;
+	overflow: hidden;
+
+}
+.black{
+	height: 10px;
+	background-color: black;
+}
+.imgContainer{
+	background-image: url("https://i.ytimg.com/vi/MvKEomoiKBA/mqdefault.jpg");
+	background-color: black;
+	height: 180px;
+	width: 320px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+.title{
+	background-color: cornflowerblue;
+	display: flex;
+}
+.dataVideoContainer{
+	display: flex;
+	flex-direction: column;
+}
+.dataVideoContainer_item{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.dataVideoContainer_item p{
+	flex-grow: 1;
+	text-align: center;
+}
+
+.descriptionContainer{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: red;
+	justify-content: center;
+}
+.descriptionContainer p{
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+}
+
+
+.svgContainer{
+	color: white;
+	border-radius: 10px;
+	margin: 10px;
+	background-color: black;
+	width: 30px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+svg{
+	width: 20px;
+	height: 20px;
+}
+p{
+	margin: 0;
+	padding: 0;
+}
+.red{
+	background-color: red;
+}
