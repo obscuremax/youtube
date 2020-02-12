@@ -1,26 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter} from "react-router-dom";
+import {Provider} from "react-redux";
+import {store} from "./redux/store";
+import {InputFormContainer} from "./containerComponents/InputFormContainer/InputFormContainer";
+import {CardContainer} from "./containerComponents/CardContainer/CardContainer";
+import {PageContainer} from "./containerComponents/PageContainer/PageContainer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Provider store={store}>
+        <div style={{backgroundColor: "grey", height: "800px", paddingTop: "10px"}}>
+          <InputFormContainer/>
+          <CardContainer />
+          <PageContainer/>
+        </div>
+      </Provider>
+    </BrowserRouter>
   );
 }
 
 export default App;
+
