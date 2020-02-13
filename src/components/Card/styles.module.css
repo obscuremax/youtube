@@ -94,7 +94,6 @@ p{
 	height: 100%;
 	transform-style: preserve-3d;
 	transition: all 1s ease;
-	background: yellow;
 	border-radius: 10px;
 }
 .front{

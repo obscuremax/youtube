@@ -18,7 +18,7 @@ const mapDispatchToProps = (dispatch) => {
 
 	return {
 		getBox: () => dispatch(onClick()),
-		getFlip: () => dispatch(getFlip(!store.getState().inputValueReducer.flip))
+		getFlip: (event) => dispatch(getFlip(event.target.id))
 	}
 }
 

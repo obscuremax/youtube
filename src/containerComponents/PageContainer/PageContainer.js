@@ -9,14 +9,14 @@ const mapStateToProps = (state) => {
 	return {
 		pageSize: state.inputValueReducer.pageSize,
 		pageCount: state.inputValueReducer.pageCount,
-		pageCurrent: state.inputValueReducer.pageCurrent
+		pageCurrent: state.inputValueReducer.pageCurrent,
 	}
 }
 const mapDispatchToProps = (dispatch) => {
 	return {
 		pageLeft: (event)=> dispatch(pageLeft(-330*4*event.target.id)),
 		getPageCurrent: (event)=> dispatch(getPageCurrent(Number(event.target.id)+1)),
-		getBox: () => dispatch(getBox())
+		getBox: () => dispatch(getBox()),
 	}
 }
 
