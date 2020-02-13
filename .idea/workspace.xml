@@ -88,7 +88,7 @@
       <updated>1580643999078</updated>
       <workItem from="1580644000337" duration="23405000" />
       <workItem from="1580759774563" duration="79425000" />
-      <workItem from="1581437774791" duration="11706000" />
+      <workItem from="1581437774791" duration="19544000" />
     </task>
     <servers />
   </component>
@@ -107,23 +107,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/Card/Card.js</url>
-          <line>100</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/Card/Card.js</url>
-          <line>80</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
