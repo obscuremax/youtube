@@ -14,7 +14,7 @@ const boxData = props.boxData;
 						<FlexContainer>
 							<div className={styles.cardContainer} id={index}>
 								<div className={styles.imgContainer} style={{backgroundImage: `url(${el[0].snippet.thumbnails.medium.url})`}}>
-									<div className={styles.title}><a>{el[0].snippet.title}</a></div>
+									<div className={styles.title}><a href={`https://www.youtube.com/watch?v=${el[0].id}`}>{el[0].snippet.title}</a></div>
 								</div>
 								<div className={styles.black}></div>
 								<div className={styles.dataVideoContainer}>
