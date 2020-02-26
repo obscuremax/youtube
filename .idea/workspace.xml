@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5830bfb3-404e-4b09-9906-866d67bddf1e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/Card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card/styles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/styles.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/InputForm/InputForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InputForm/InputForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/InputForm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InputForm/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Page/Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page/Page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Page/input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page/input.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containerComponents/CardContainer/CardContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containerComponents/CardContainer/CardContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containerComponents/CardContainer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containerComponents/CardContainer/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containerComponents/CardItemContainer/CardItemContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containerComponents/CardItemContainer/CardItemContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containerComponents/InputFormContainer/InputFormContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containerComponents/InputFormContainer/InputFormContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containerComponents/PageContainer/PageContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containerComponents/PageContainer/PageContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/combineReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/combineReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/middleware.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/inputFormReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/inputFormReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +69,10 @@
       <updated>1580643999078</updated>
       <workItem from="1580644000337" duration="23405000" />
       <workItem from="1580759774563" duration="79425000" />
-      <workItem from="1581437774791" duration="21066000" />
+      <workItem from="1581437774791" duration="21723000" />
+      <workItem from="1582040620592" duration="598000" />
+      <workItem from="1582070824095" duration="10308000" />
+      <workItem from="1582732711392" duration="329000" />
     </task>
     <servers />
   </component>
