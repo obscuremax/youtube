@@ -5,13 +5,15 @@ import styles from "./styles.module.css"
 export function Card(props) {
 const boxData = props.boxData;
 
+
+
 	return boxData? <FlexContainerWrap>
 		{boxData.map((el,index)=>
 			<FlexContainer style={{left: `${index === 0? 0+props.pageLeft: index*330+props.pageLeft}px`}}>
 			<div className={styles.container} >
 				<div className={styles.card}  style={{transform: `${props.flip == (index+"f")? "rotateY(180deg)": ""}`}}>
 					<div className={styles.front}>
-						<FlexContainer>
+						<div>
 							<div className={styles.cardContainer} id={index}>
 								<div className={styles.imgContainer} style={{backgroundImage: `url(${el[0].snippet.thumbnails.medium.url})`}}>
 									<div className={styles.title}><a href={`https://www.youtube.com/watch?v=${el[0].id}`}>{el[0].snippet.title}</a></div>
@@ -74,11 +76,10 @@ const boxData = props.boxData;
 									</div>
 								</div>
 							</div>
-
-						</FlexContainer>
+						</div>
 					</div>
 					<div className={styles.back}>
-						<FlexContainer >
+						<div >
 							<div className={styles.cardContainer} id={index}>
 								<div className={styles.titleBack}>
 									Description
@@ -94,7 +95,7 @@ const boxData = props.boxData;
 									</div>
 								</div>
 							</div>
-						</FlexContainer>
+						</div>
 					</div>
 				</div>
 			</div>
