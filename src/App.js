@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <Provider store={store}>
-        <div style={{backgroundColor: "grey", height: "800px", paddingTop: "10px"}}>
+        <div style={{backgroundColor: "grey", height: "100vh", paddingTop: "10px"}}>
           <InputFormContainer/>
           <CardContainer />
           <PageContainer/>

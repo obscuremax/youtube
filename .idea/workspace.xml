@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="5830bfb3-404e-4b09-9906-866d67bddf1e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/Card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/InputForm/InputForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InputForm/InputForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Page/Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page/Page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containerComponents/PageContainer/PageContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containerComponents/PageContainer/PageContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/inputFormReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/inputFormReducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +38,7 @@
   <component name="ProjectId" id="1XFZrFutOAxGf6Y3wUOMubUh5h6" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -72,7 +77,8 @@
       <workItem from="1581437774791" duration="21723000" />
       <workItem from="1582040620592" duration="598000" />
       <workItem from="1582070824095" duration="10308000" />
-      <workItem from="1582732711392" duration="19395000" />
+      <workItem from="1582732711392" duration="28836000" />
+      <workItem from="1583058022513" duration="9178000" />
     </task>
     <servers />
   </component>

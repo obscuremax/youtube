@@ -9,6 +9,31 @@ export const GET_PAGE_COUNT = "GET_PAGE_COUNT"
 export const GET_POSITION = "GET_POSITION"
 export const PAGE_LEFT = "PAGE_LEFT"
 export const GET_FLIP = "GET_FLIP"
+export const BUTTON_LEFT = "BUTTON_LEFT"
+export const BUTTON_INCREMENT = "BUTTON_INCREMENT"
+export const BUTTON_DECREMENT = "BUTTON_DECREMENT"
+
+
+
+
+export function buttonDecrement(payload) {
+	return {
+		type: BUTTON_DECREMENT,
+		payload: payload
+	}
+}
+export function buttonIncrement(payload) {
+	return {
+		type: BUTTON_INCREMENT,
+		payload: payload
+	}
+}
+export function buttonLeft(payload) {
+	return {
+		type: BUTTON_LEFT,
+		payload: payload
+	}
+}
 
 export function getFlip(payload) {
 	return {

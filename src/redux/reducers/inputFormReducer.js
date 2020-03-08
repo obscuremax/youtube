@@ -9,7 +9,11 @@ import {
 	GET_PAGE_COUNT,
 	GET_POSITION,
 	PAGE_LEFT,
-	GET_FLIP
+	GET_FLIP,
+	BUTTON_LEFT,
+	BUTTON_DECREMENT,
+	BUTTON_INCREMENT,
+
 } from "../actions";
 
 const initialState = {
@@ -23,19 +27,38 @@ const initialState = {
 	position: 0,
 	pageLeft: 0,
 	pageRight: 0,
-	flip: false
+	flip: false,
+
 
 }
 
 export function inputValueReducer(state = initialState, action) {
 	switch (action.type) {
+
+		case BUTTON_DECREMENT: {
+			return {
+				...state,
+				pageCurrent: state.pageCurrent-1
+			}
+		}
+		case BUTTON_INCREMENT: {
+			return {
+				...state,
+				pageCurrent: state.pageCurrent+1
+			}
+		}
 		case GET_FLIP: {
 			return {
 				...state,
 				flip: action.payload
 			}
 		}
-
+		case BUTTON_LEFT: {
+			return {
+				...state,
+				buttonLeft: action.payload
+			}
+		}
 		case PAGE_LEFT: {
 			return {
 				...state,

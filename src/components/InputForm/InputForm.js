@@ -25,15 +25,7 @@ const Button = styled.button`
 	background: linear-gradient(to bottom,#bf3434,#ab0e0e);
 	color:#fff;
 	
-&:before {
-	content: '';
-	position: absolute;
-	top: 70px;
-	left: 1330px;
-	border-width: 8px 8px 8px 0;
-	border-style: solid solid solid none;
-	border-color: transparent #b52e2e transparent;
-}
+
 
 &:hover {
 	outline: none;
@@ -41,7 +33,7 @@ const Button = styled.button`
 	cursor: pointer;
 }
 
-&:hover $:before{
+&:hover {
 	border-right-color: #bf3434;
 }
 
